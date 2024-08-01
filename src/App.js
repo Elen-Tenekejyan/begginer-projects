@@ -6,6 +6,9 @@ function App() {
 
   return (
     <div className="App">
+      <button onClick={() => setOpen(true)} className="open-modal-btn">
+        ✨ Открыть окно
+      </button>
       {open && (
         <div className="overlay">
           <div className="modal">
