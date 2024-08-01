@@ -1,6 +1,7 @@
 import "./index.scss";
 import { useState } from "react";
 function App() {
+  const [counut, setCount] = useState(0);
   return (
     <div className="App">
       <div>
