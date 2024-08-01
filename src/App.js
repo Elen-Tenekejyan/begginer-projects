@@ -6,10 +6,6 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => setOpen(true)} className="open-modal-btn">
-        ✨ Open Window
-      </button>
-
       {open && (
         <div className="overlay">
           <div className="modal">
